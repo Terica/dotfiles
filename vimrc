@@ -91,25 +91,25 @@ imap jj <esc>
 map <Leader>ac :sp app/controllers/application_controller.rb<cr>
 vmap <Leader>b :<C-U>!git blame <C-R>=expand("%:p") <CR> \| sed -n <C-R>=line("'<") <CR>,<C-R>=line("'>") <CR>p <CR>
 map <Leader>bb :!bundle install<cr>
-nmap <Leader>bi :source ~/.vimrc<cr>:PluginInstall<cr>
+nmap <Leader>bi :source ~/.vimrc<cr>:PluginInstall<cr>      " sources all plugins
 vmap <Leader>bed "td?describe<cr>obed<tab><esc>"tpkdd/end<cr>o<esc>:nohl<cr>
 map <Leader>cc :!cucumber --drb %<CR>
 map <Leader>cu :Tabularize /\|<CR>
-map <Leader>co mmggVG"*y`m
-map <Leader>cc :Rjcollection client/
-map <Leader>cj :Rjspec client/
+map <Leader>co mmggVG"*y`m              " Yank all into "* register
+map <Leader>cc :Rjcollection client/    " not an editor command
+map <Leader>cj :Rjspec client/          " not an editor command
 map <Leader>cm :Rjmodel client/
 map <Leader>cs :call SearchForCallSitesCursor()<CR>
-map <Leader>ct :Rtemplate client/
+map <Leader>ct :Rtemplate client/       " Not an editor command
 map <Leader>cv :Rjview client/
-map <Leader>cn :e ~/Dropbox/notes/coding-notes.txt<cr>
+map <Leader>cn :e ~/Dropbox/notes/coding-notes.txt<cr>  " I have set these up in my home/Dropbox directory
 map <Leader>d orequire 'pry'<cr>binding.pry<esc>:w<cr>
 map <Leader>dr :e ~/Dropbox<cr>
 map <Leader>dj :e ~/Dropbox/notes/debugging_journal.txt<cr>
-map <Leader>ec :e ~/code/
+map <Leader>ec :e ~/Code/
 map <Leader>gw :cd %:p:h<cr>:!git add . && git commit -m 'WIP' && git push<cr>
 map <Leader>gl :e Gemfile.lock<cr>
-map <Leader>f :call OpenFactoryFile()<CR>
+map <Leader>f :call OpenFactoryFile()<CR>     " Works for me - calls spec/factories dir
 map <Leader>fix :cnoremap % %<CR>
 map <Leader>fa :sp test/factories.rb<CR>
 map <Leader>i mmgg=G`m
