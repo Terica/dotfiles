@@ -1,12 +1,12 @@
-# Ben Orenstein's dot files
+# The Taking of Ben Orenstein's dot files
 
-These are config files to set up a system the way I like it.
+These are config files from a trusted vim evangelist. I like most of these; some are beyond my reach, currently. Part of my Open Source University cirriculum.
 
-Vim-users will likely find useful stuff in my [vimrc](vimrc), and also my [Ruby snippets](vim/snippets/ruby.snippets).
+Vim-users will likely find useful stuff in the [vimrc](vimrc), and also the [Ruby snippets](vim/snippets/ruby.snippets). This is an understatement.
 
-I'm also a pretty aggressive aliaser. You might find a few you like in [zsh/aliases](zsh/aliases).
+If you use aliases, then you might find a few you like in [zsh/aliases](zsh/aliases).
 
-## Installation
+## Installation - go get the real thing!
 
   `git clone git://github.com/r00k/dotfiles ~/.dotfiles`  
   `cd ~/.dotfiles`  
@@ -19,4 +19,4 @@ I'm also a pretty aggressive aliaser. You might find a few you like in [zsh/alia
   
 ## More
 
-You should [follow me on Twitter](https://twitter.com/r00k). I tweet programming tips.
+IF you are in San Francisco and play tennis hit me up. I have some Vim-like moves for your next tennis match.
