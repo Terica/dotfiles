@@ -1,6 +1,6 @@
-# The Taking of Ben Orenstein's dot files
+# thoughtbot dotfiles/BO
 
-These are config files from a trusted vim evangelist. I like most of these; some are beyond my reach, currently. Part of my Open Source University cirriculum.
+These are config files from a trusted vim evangelist.
 
 Vim-users will likely find useful stuff in the [vimrc](vimrc), and also the [Ruby snippets](vim/snippets/ruby.snippets). This is an understatement.
 
@@ -17,6 +17,4 @@ If you use aliases, then you might find a few you like in [zsh/aliases](zsh/alia
   `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`  
   Run :BundleInstall in vim.
   
-## More
 
-IF you are in San Francisco and play tennis hit me up. I have some Vim-like moves for your next tennis match.
