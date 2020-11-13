@@ -6,7 +6,7 @@ Vim-users will likely find useful stuff in the [vimrc](vimrc), and also the [Rub
 
 If you use aliases, then you might find a few you like in [zsh/aliases](zsh/aliases).
 
-## Installation - go get the real thing!
+## Installation
 
   `git clone git://github.com/r00k/dotfiles ~/.dotfiles`  
   `cd ~/.dotfiles`  
